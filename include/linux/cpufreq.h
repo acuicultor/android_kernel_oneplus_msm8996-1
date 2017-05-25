@@ -117,7 +117,9 @@ struct cpufreq_policy {
 
 	/* For cpufreq driver's internal use */
 	void			*driver_data;
-	unsigned int util;
+#ifdef CONFIG_MSM_TRACK_FREQ_TARGET_INDEX
+	unsigned int	cur_index;
+#endif
 };
 
 /* Only for ACPI */
