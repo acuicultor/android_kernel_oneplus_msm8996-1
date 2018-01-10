@@ -31,7 +31,7 @@ export KBUILD_BUILD_HOST=PNW-Build-Machine
 # Paths
 WORKING_DIR=$(pwd)
 ANYKERNEL_DIR="${HOME}/android/kernels/AnyKernel2"
-TOOLCHAIN_DIR="${HOME}/Android/toolchains/aarch64-linux-gnu-kernel-linaro-7.x/"
+TOOLCHAIN_DIR="${HOME}/Android/toolchains/ubernaro-aarch64-linux-android-4.9/"
 REPACK_DIR="${ANYKERNEL_DIR}"
 OUT_DIR="${WORKING_DIR}/out/"
 ZIP_MOVE="${WORKING_DIR}/zips/"
