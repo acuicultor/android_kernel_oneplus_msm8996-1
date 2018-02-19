@@ -31,7 +31,7 @@ export KBUILD_BUILD_HOST=NuclearPowerPlant
 # Paths
 WORKING_DIR=$(pwd)
 ANYKERNEL_DIR="${HOME}/android/kernels/AnyKernel2"
-TOOLCHAIN_DIR="${HOME}/Android/toolchains/ubernaro-aarch64-linux-android-4.9/"
+TOOLCHAIN_DIR="${HOME}/Android/toolchains/aarch64-linux-gnu/"
 REPACK_DIR="${ANYKERNEL_DIR}"
 OUT_DIR="${WORKING_DIR}/out/"
 ZIP_MOVE="${WORKING_DIR}/zips/"
